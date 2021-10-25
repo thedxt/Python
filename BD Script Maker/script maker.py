@@ -5,7 +5,7 @@ print("Starting the script to make scripts")
 
 from csv import DictReader
 # load the csv file with the variables and define it as the list
-with open('few_clients2.csv', 'r') as the_list:
+with open('clients.csv', 'r') as the_list:
     # define new variable to load the list as object mapping
     csv_dict_reader = DictReader(the_list)
     # run a loop for each item in the csv
